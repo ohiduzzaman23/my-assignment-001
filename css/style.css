@@ -79,3 +79,20 @@ nav ul li {
     border-radius: 45px;
     margin-left: 150px;
 }
+/* Productive Section Style */
+.productive_user{
+    background-color: #E5E7FF;
+    text-align: center;
+    margin: 0 150px;
+    padding: 50px 140px;
+    border-radius: 15px;
+}
+.productive_quantity{
+    display: flex;
+    gap: 110px;
+    justify-content: center;
+}
+.productive_content h1{
+    font-size: 60px;
+    color: #4E47FF;
+}
