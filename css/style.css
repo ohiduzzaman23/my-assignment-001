@@ -12,6 +12,8 @@
 }
 body{
     background-color: #F5F8FF;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 /* Shared Style */
 .btn_primary{
@@ -21,6 +23,11 @@ body{
     padding: 10px 30px;
     border: none;
     cursor: pointer;
+}
+.btn_primary:hover{
+    background-color: #7817B6;
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
 }
 .dark_color{
     color: #252432;
@@ -58,6 +65,7 @@ nav ul li {
 .banner{
     margin: 100px 150px;
     text-align: center;
+    padding-bottom: 70px;
 }
 .banner_title{
     font-size: 55px;
@@ -71,6 +79,7 @@ nav ul li {
     margin: 150px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .action_content{
     max-width: 480px;
@@ -88,8 +97,11 @@ nav ul li {
     background-color: #E5E7FF;
     text-align: center;
     margin: 0 150px;
-    padding: 50px 140px;
+    padding: 40px 140px;
     border-radius: 15px;
+}
+.productive_title{
+    padding-bottom: 15px;
 }
 .productive_quantity{
     display: flex;
@@ -100,6 +112,10 @@ nav ul li {
     font-size: 60px;
     color: #4E47FF;
 }
+.productive_description{
+    padding: 0;
+}
+
 /* Review Section Style */
 .review_section{
     margin: 100px 150px;
@@ -142,29 +158,11 @@ nav ul li {
     color: #6b6b6d;
 }
 
-
-
-/* Footer Section style */
-footer{
-    text-align: center;
-    background-color:#FFFFFF;
-}
-.logo_footer{
-    margin: 0 150px;
-    padding: 100px;
-}
-.page_link{
-    color: #252432;
-    font-weight: 500;
-    text-decoration: none;
-    padding-right: 35px;
-}
-
 /* Touch Section Style */
 .touch{
     display: flex;
     margin: 100px 150px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 form{
@@ -185,7 +183,7 @@ form{
 .contact_info input, textarea{
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     width: 100%;
     font-family: inter;
 }
@@ -203,4 +201,29 @@ form{
     border: none;
     cursor: pointer;
     width: 100%;
+}
+.btn_submit:hover{
+    background-color: #7817B6;
+    transition: 0.5s;
+}
+
+
+/* Footer Section style */
+footer{
+    text-align: center;
+    background-color:#FFFFFF;
+}
+.logo_footer{
+    margin: 0 150px;
+    padding: 100px;
+}
+.logo_green{
+    font-size: 60px;
+    color: green;
+}
+.page_link{
+    color: #252432;
+    font-weight: 500;
+    text-decoration: none;
+    padding-right: 35px;
 }
